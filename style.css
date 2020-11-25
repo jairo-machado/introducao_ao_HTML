@@ -1,10 +1,24 @@
 body {
     background-image: url("wallpaper.jpg");
     background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
 }
 
 #title, .subtitle, .post_title{
-    color: darkblue;
+    color: coral;
+}
+
+#title{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: coral;
 }
 
 .post_title{
@@ -18,16 +32,37 @@ body {
     background: white;
     padding: 10px;
     border: 3px solid black;
+    border-radius: 10px;
     margin-bottom: 15px;
 }
 
 .post_content{
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_image{
     width: 384px;
     height: 216px;
     margin-bottom: 15px;
+}
+
+#profile_picture{
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+}
+
+.list{
+    list-style-image: url("zoro_ico.png");
+}
+
+.list li a{
+    text-decoration: underline;
+}
+
+#link_email{
+    text-transform: lowercase;
 }
